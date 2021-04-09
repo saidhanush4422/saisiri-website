@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <style>
+ @media(min-width: 1000px){				
+ body{
+		text-align: center;
+		font-family: Comic Sans MS, cursive, sans-serif;
+		 background-image: url("sd2.jpg");
+		 background-attachment: fixed;
+		 background-repeat: no-repeat;
+		 background-position: center;
+		 background-size: 100%;
+		  }
+		 }
+@media(max-width: 999px){
+ body{ 
+		text-align: center;
+		font-family: Comic Sans MS, cursive, sans-serif;
+		background-color:gold;
+		}
+	}	
+p::selection {
+                color: red;
+                background-color: yellow;
+            }		  
+	 h2{
+	   font-size: 30px;
+	   font-weight: bold;
+	   color: blue;
+	  }
+	h5{
+		 font-family: Comic Sans MS, cursive, sans-serif;
+		 color: springgreen;
+		 }
+	input[type=name]{
+		background-color:snow;
+		}
+	input[type=number]{
+		background-color:snow;
+		}
+	input[type=password]{
+		background-color:snow;
+		}
+  </style>		 
+</head>		 
+<body>
+<h2>SIGN UP! </h2> <hr> <a href="carousel.html"><button type="button" class="btn btn-outline-danger">HOME</a></button> <hr>
+<form>
+	<div>
+	<h5>FIRST NAME</h5>
+   <input name="name" type="name" placeholder="first name">
+   <h5>LAST NAME</h5>
+   <input name="name" type="name" placeholder="last name">
+   <h5>AGE</h5>
+   <input name="name" type="number" placeholder="AGE">
+	</div>
+	<div>
+ <h5>GENDER</h5>
+   <input name="gender" type="radio" value="male">male 
+   <input name="gender" type="radio" value="female">female 
+   </div>
+   <div class="container">
+	<h5>MOBILE NUMBER</h5>
+   <input name="name" type="number" placeholder="Mobile Number">
+   <h5>PURPOSE</h5>
+   <input name="name" type="name" placeholder=".....">
+   <h5>PASSSWORD</h5>
+   <input name="name" type="password" placeholder="PASSSWORD">
+   <h5>CONFIRM PASSWORD</h5>
+   <input name="name" type="password" placeholder="CONFIRM PASSSWORD">
+   <p>please submit for further instructions!</P>
+   <button type="button" class="btn btn-outline-success">Submit!</button>
+   </div>
+</form>
+</body>
+</html>   
+   
